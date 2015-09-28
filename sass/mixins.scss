@@ -1,0 +1,13 @@
+@mixin nice_links {
+	-webkit-tap-highlight-color: transparent;
+	// -webkit-user-select: none;
+	// -moz-user-select: none;
+	// -ms-user-select: none;
+}
+
+@mixin animate ($args) {
+	-webkit-animation: $args;
+	-moz-animation: $args;
+	-o-animation: $args;
+	animation: $args;
+}
