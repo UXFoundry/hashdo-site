@@ -1,5 +1,6 @@
 @import "compass/reset";
 @import "compass/css3/animation";
+@import "compass/css3/flexbox";
 @import "compass/css3/images";
 @import "compass/css3/transform";
 @import "compass/css3/transition";
@@ -119,22 +120,21 @@ p{
 
 .cards{
 	width: 1068px;
+	height: 1370px;
 	padding: 10px;
 	margin: 0 auto;
 	
-	&.at846px, &.at584px{
-		display: none;
-	}
-	
-	.col{
-		float: left;
-	}
+	@include display-flex;
+	@include flex-direction(column);
+	@include flex-wrap(wrap);
+	@include align-items(flex-start);
+	@include align-content(flex-start);
 	
 	img{
 		min-height: 0;
 		width: 242px;
-		height: 100%;
 		max-width: 484px;
+		min-height: 0;
 		margin: 10px;
 		border-radius: 4px;
 		box-shadow: 0 0 15px transparentize(black, .8);
@@ -142,35 +142,21 @@ p{
 	
 	@media (max-width: 1107px) {
 		width: 806px;
-		&.at846px{
-			display: block;
-		}
-		&.at1108px, &.at584px{
-			display: none;
-		}
+		height: 1830px;
 	}
 	
 	@media (max-width: 845px) {
 		width: 544px;
-		&.at584px{
-			display: block;
-		}
-		&.at1108px, &.at846px{
-			display: none;
-		}
+		height: 2600px;
 	}
 	
 	@media (max-width: 583px) {
 		width: auto;
 		height: auto;
 		
-		.col{
-			float: none;
-		}
-		
 		img{
 			width: 100%;
-			margin: 15px auto;
+			margin: 10px 0;
 		}
 	}
 }
