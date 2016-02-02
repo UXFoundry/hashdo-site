@@ -1,5 +1,6 @@
 @import "compass/reset";
 @import "compass/css3/animation";
+@import "compass/css3/flexbox";
 @import "compass/css3/images";
 @import "compass/css3/transform";
 @import "compass/css3/transition";
@@ -123,6 +124,7 @@ p{
 	margin: 0 auto;
 	overflow: hidden;
 	
+<<<<<<< HEAD
 	&.at846px, &.at584px{
 		display: none;
 	}
@@ -130,10 +132,16 @@ p{
 	.col{
 		float: left;
 	}
+=======
+	@include display-flex;
+	@include flex-direction(column);
+	@include flex-wrap(wrap);
+	@include align-items(flex-start);
+	@include align-content(flex-start);
+>>>>>>> parent of 2ae8796... Getting the flex box stuff working in Chrome again
 	
 	img{
 		width: 242px;
-		height: 100%;
 		max-width: 484px;
 		margin: 10px;
 		border-radius: 4px;
