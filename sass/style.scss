@@ -1,6 +1,5 @@
 @import "compass/reset";
 @import "compass/css3/animation";
-@import "compass/css3/flexbox";
 @import "compass/css3/images";
 @import "compass/css3/transform";
 @import "compass/css3/transition";
@@ -103,14 +102,15 @@ p{
 	padding: 10px;
 	margin: 0 auto;
 	
-	@include display-flex;
-	@include flex-direction(column);
-	@include flex-wrap(wrap);
-	@include align-items(flex-start);
-	@include align-content(flex-start);
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	align-content: flex-start;
 	
 	img{
 		width: 242px;
+		height: 100%;
 		max-width: 484px;
 		margin: 10px;
 		border-radius: 4px;
