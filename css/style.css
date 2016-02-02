@@ -137,8 +137,7 @@ p {
 .cards {
   width: 1068px;
   padding: 10px;
-  margin: 0 auto;
-  overflow: hidden; }
+  margin: 0 auto; }
   .cards.at846px, .cards.at584px {
     display: none; }
   .cards .col {
