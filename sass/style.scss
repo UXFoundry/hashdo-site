@@ -119,16 +119,9 @@ p{
 
 .cards{
 	width: 1068px;
-	//height: 1380px;
 	padding: 10px;
 	margin: 0 auto;
 	overflow: hidden;
-	
-	// display: flex;
-	// flex-direction: column;
-	// flex-wrap: wrap;
-	// align-items: flex-start;
-	// align-content: flex-start;
 	
 	&.at846px, &.at584px{
 		display: none;
@@ -149,7 +142,6 @@ p{
 	
 	@media (max-width: 1107px) {
 		width: 806px;
-		//height: 1840px;
 		&.at846px{
 			display: block;
 		}
@@ -160,7 +152,6 @@ p{
 	
 	@media (max-width: 845px) {
 		width: 544px;
-		//height: 2610px;
 		&.at584px{
 			display: block;
 		}
