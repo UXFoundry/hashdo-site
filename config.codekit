@@ -207,6 +207,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/browserstack-logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10090,
+		"inputAbbreviatedPath": "\/img\/browserstack-logo.png",
+		"outputAbbreviatedPath": "\/img\/browserstack-logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/favicon.png": {
 		"fileType": 32768,
 		"ignore": 0,

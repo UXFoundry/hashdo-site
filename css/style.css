@@ -180,3 +180,17 @@ p {
       .cards img {
         width: 100%;
         margin: 10px 0; } }
+
+.ad img {
+  width: 100%;
+  max-width: 320px;
+  margin: 0 auto; }
+.ad p {
+  margin: 0 auto;
+  padding: 0 20px;
+  font-size: 16px;
+  text-align: center; }
+  .ad p a {
+    color: #007CFF; }
+    .ad p a:hover, .ad p a:active {
+      color: #FF3824; }
